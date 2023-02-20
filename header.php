@@ -26,8 +26,9 @@
                 <ul class="nav navbar-nav">
                     <li><a href="#about">Moi</a></li>
                     <li><a href="#skills">Competence</a></li>
-                    <li><a href="#experience">Expérience</a></li>
+                    <li><a href="#experience">Maîtrise de Logiciel</a></li>
                     <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>

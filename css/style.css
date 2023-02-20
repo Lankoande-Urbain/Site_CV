@@ -24,12 +24,17 @@ section .heading h2{
     height: 3px;
     background: #1723d5;
     margin: 0 auto;
+    margin-top: 30px !important;
+}
+li{
+    list-style: none !important;
 }
 .white-divider{
     width: 100px;
     height: 3px;
     background: #FFF;
     margin: 0 auto;
+    margin-top: 30px !important;
 }
 
 /* MENU */
@@ -86,7 +91,7 @@ section .heading h2{
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
-    border: 1px solid white;
+    border: 2px solid white;
     display: inline-block;
     margin-top: 20px;
     padding: 18px 50px;
@@ -132,6 +137,7 @@ section .heading h2{
 .timeline{
     padding: 30px 10px;
     position: relative;
+    text-align: center;
 }
 .timeline::before{
     top: 0;
@@ -146,7 +152,9 @@ section .heading h2{
 .timeline > li{
     margin-bottom: 20px;
     position: relative;
+    
 }
+
 .timeline > li::after{
     clear: both;
 }
@@ -254,24 +262,91 @@ section .heading h2{
 }
 
 
+/* CONTACT */
+
+#contact{
+    background: #1723d5;
+    padding-bottom: 50px !important;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 60px;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#fff
+}
+#contact-form{
+    font-size: 20px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+.blue{
+    color: #0069d6;
+}
+.form-control{
+    height: 50px;
+    font-size: 18px;
+}
+.comments{
+    font-style: italic;
+    font-size: 18px;
+    color: #d82c2e;
+    height: 25px;
+}
+#contact-form input[type=submit]{
+    margin: 40px auto 0px;
+    display: block;
+}
+
+.thank-you{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.button2{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0069d6;
+    border: 2px solid #0069d6;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.3s ease-in 0s;
+    background: transparent;
+}
+.button2:hover{
+    background: #0069d6;
+    color: #ffffff;
+    text-decoration: none;
+}
 
 
 
 /*FOOTER*/
 footer{
-    background: #333;
-    padding: 20px 0 40px;
+    background: #fff;
+    padding: 5px ;
+    height: 100px;
 }
 footer .glyphicon{
     font-size: 25px;
-    margin: 20px;
-    color: #1723d5;
+    margin-top: 1px;
+    color: #0069d6;
     height: 15px;
 }
-footer .glyphicon:hover{
-    font-size: 27px;
+footer .glyphicon:hover { 
+    font-size: 30px;
+    padding-bottom: -5px;
+    
 }
 footer h5{
-    color: #fff;
-    font-weight: normal;
+    color: #0069d6;
+    font-weight: 500;
 }
